@@ -2,7 +2,7 @@
 - 👀Estou entrando na Área de Desenvolvimento web Front-End.
 - 🌱 I’m currently learning ...
 - 💞️Estou buscando montar uma startUp para programação focada em Web
-- 📫 How to reach me ...
+
 
 <!---
 Sergiobole/Sergiobole is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
