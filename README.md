@@ -1,7 +1,7 @@
 - 👋 Olá, me chamo Sergio Bole
 - 👀Estou entrando na Área de Desenvolvimento web Front-End.
-- 🌱 I’m currently learning ...
-- 💞️Estou buscando montar uma startUp para programação focada em Web
+- 🌱Atualmente estou estudando Desenvolvimento de jogos focando em c#
+- 💞️Estou buscando montar uma startUp para programação focada em Web GameDev
 
 
 <!---
