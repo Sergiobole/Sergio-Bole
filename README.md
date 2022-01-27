@@ -1,7 +1,7 @@
-- 👋 Olá, me chamo Sergio Bole <br>
-- 👀Estou entrando na Área de Desenvolvimento web Front-End. <br>
-- 🌱Atualmente estou estudando PHP e MySQL para atuar na area de Back-End ! <br>
-- 💞️Estou buscando montar uma startUp para programação focada em Web e GameDev <br>
+- 👋 Olá, me chamo Sergio Bole <br><p>
+- 👀Estou entrando na Área de Desenvolvimento web Front-End. <br><p>
+- 🌱Atualmente estou estudando PHP e MySQL para atuar na area de Back-End ! <br><p>
+- 💞️Estou buscando montar uma startUp para programação focada em Web e GameDev <br><p>
 
 
 <!---
