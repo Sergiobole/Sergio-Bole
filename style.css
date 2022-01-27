@@ -1,0 +1,43 @@
+:root{
+
+ background-color: skyblue;
+
+}
+
+
+
+
+/*  Menu  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+   /* Sobre  */
+
+   .sobre{
+    background-color: antiquewhite;
+    margin: 15%;
+    width: 35%;
+    padding: 5%;
+
+   }
