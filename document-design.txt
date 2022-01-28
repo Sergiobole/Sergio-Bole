@@ -45,7 +45,9 @@ ul {
    }
 
     .fotoEu img{
+
       
+
     float:right;
     margin-left: 5%;
     margin-bottom: 15%;
