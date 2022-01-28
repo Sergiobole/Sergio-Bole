@@ -1,13 +1,7 @@
-:root{
-
+plano de fundo - background geral  : 
  background-color: skyblue;
 
-}
-
-
-
-
-/*  Menu  */
+ /*  Menu  */
 ul {
     list-style-type: none;
     margin: 0;
@@ -33,9 +27,14 @@ ul {
     background-color: greenyellow;
     color: grey;
   }
-   /* index  */
 
-   .sobre{
+
+
+  /*  conteudo  */
+
+
+     .sobre{
+
     background-color: antiquewhite;
 
     margin-top: 10%;
@@ -44,7 +43,9 @@ ul {
     padding: 5%;
 
    }
+
     .fotoEu img{
+      
     float:right;
     margin-left: 5%;
     margin-bottom: 15%;
