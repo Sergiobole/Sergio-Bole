@@ -1,5 +1,5 @@
 :root{
-
+  box-sizing: border-box;
  background-color: skyblue;
  color: blue;
 
@@ -7,6 +7,7 @@
 
 
 /*  Menu  */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,11 +28,14 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  
   li a:hover {
     background-color: rgb(104, 217, 235);
     color: rgb(34, 101, 53);
   }
+
+
+
    /* index  */
 
    .sobre{
@@ -51,3 +55,59 @@ ul {
   
     width: 30%;
    }
+
+/* dropdown */
+
+
+li a, .dropbtn {
+  border-bottom: darkblue;
+  background-color: #333;
+  display: inline-block;
+  color: rgb(131, 131, 221);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #333;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: skyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(81, 155, 184);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.insta:hover {
+background-image: url('https://cdn-icons-png.flaticon.com/512/2111/2111421.png');
+height: 50%;
+
+}
+.discord img{
+
+}
+.ytb img{
+
+}
