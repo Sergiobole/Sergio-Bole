@@ -1,10 +1,9 @@
 :root{
 
  background-color: skyblue;
+ color: blue;
 
 }
-
-
 
 
 /*  Menu  */
@@ -30,8 +29,8 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: greenyellow;
-    color: grey;
+    background-color: rgb(104, 217, 235);
+    color: rgb(34, 101, 53);
   }
    /* index  */
 
