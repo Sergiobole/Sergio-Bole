@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Sergio Bole</title>
+  <title>Portfólio - Sergio Barros</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -11,6 +11,12 @@
     }
     .navbar {
       margin-bottom: 2rem;
+    }
+    .section-title {
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+      font-size: 1.75rem;
     }
     footer {
       margin-top: 2rem;
@@ -26,7 +32,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Sergio Bole</a>
+      <a class="navbar-brand" href="#">Sergio Barros</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,79 +41,159 @@
           <li class="nav-item"><a class="nav-link" href="#sobre-mim">Sobre Mim</a></li>
           <li class="nav-item"><a class="nav-link" href="#habilidades-tecnicas">Habilidades</a></li>
           <li class="nav-item"><a class="nav-link" href="#projetos-realizados">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cursos-certificacoes">Cursos e Certificações</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
+          <li class="nav-item"><a class="nav-link" href="#educacao">Educação</a></li>
           <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
         </ul>
       </div>
     </div>
   </nav>
-
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/twitter_header_photo_2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/twitter_header_photo_2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/twitter_header_photo_2.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   <!-- Header -->
   <header class="text-center py-5 bg-light">
-    <h1>Sergio Bole - Desenvolvedor de Games</h1>
+    <h1>Sergio Barros - Desenvolvedor de Games / Unity Engine</h1>
     <p class="lead">Transformando ideias em experiências interativas</p>
   </header>
 
   <!-- Sobre Mim -->
-  <section id="sobre-mim" class="container my-5">
-    <h2>📌 Sobre Mim</h2>
-    <p>Sou um <strong>estudante e desenvolvedor</strong> apaixonado por aprender continuamente e aplicar novos conhecimentos em projetos práticos. Tenho experiência com <strong>Unity</strong> e <strong>C#</strong>, trabalhando com jogos em <strong>2D, 3D</strong> e <strong>Realidade Aumentada (AR)</strong>.</p>
+  <section id="sobre-mim" class="container">
+    <h2 class="section-title">📌 Sobre Mim</h2>
+    <p>Sou um <strong>estudante e desenvolvedor</strong> com foco em aprendizado contínuo e aplicação prática do conhecimento. Tenho experiência com <strong>Unity</strong> e <strong>C#</strong>, criando projetos 2D, 3D e até em <strong>Realidade Aumentada (AR)</strong>.</p>
   </section>
+  <hr>
 
   <!-- Habilidades Técnicas -->
-  <section id="habilidades-tecnicas" class="container my-5">
-    <h2>💻 Habilidades Técnicas</h2>
+  <section id="habilidades-tecnicas" class="container">
+    <h2 class="section-title">💻 Habilidades Técnicas</h2>
     <ul>
-      <li><strong>Motor de Jogos:</strong> Unity 3D/2D, AR</li>
+      <li><strong>Motor de Jogos:</strong> Unity 3D/2D e AR</li>
       <li><strong>Linguagens:</strong> C#, PHP, MySQL, HTML, CSS</li>
       <li><strong>Multiplayer:</strong> Unity Networking (UNet)</li>
-      <li><strong>Design:</strong> Blender (em aprendizado), Photoshop</li>
+      <li><strong>Ferramentas de Design:</strong> Blender, Photoshop</li>
       <li><strong>Controle de Versão:</strong> Git, GitHub</li>
       <li><strong>Metodologias:</strong> Scrum, Agile</li>
     </ul>
   </section>
+  <hr>
 
-<!-- 
-  Projetos Realizados 
--->
+  <!-- Projetos Realizados -->
   <section id="projetos-realizados" class="container my-5">
     <h2>🎮 Projetos Realizados</h2>
-<!--
-    <div class="mb-4">
-      <h4>ZigZag Mini Game</h4>
-      <p>Um jogo arcade simples onde o jogador controla uma esfera em uma plataforma em zigue-zague.</p>
-      <a href="https://github.com/seu-usuario/zigzag-mini-game" class="btn btn-outline-dark">Ver Projeto</a>
-    </div>
--->
-    <div class="mb-4">
-      <h4>Minecraft Clone</h4>
-      <p>Projeto inspirado no Minecraft, com mecânicas básicas de construção e destruição de blocos.</p>
-      <a href="https://github.com/seu-usuario/minecraft-clone" class="btn btn-outline-dark">Ver Projeto</a>
-    </div>
-<!--
-    <div class="mb-4">
-      <h4>Projeto MK</h4>
-      <p>Jogo de luta inspirado na série Mortal Kombat, com personagens e ataques especiais.</p>
-      <a href="https://github.com/seu-usuario/projeto-mk" class="btn btn-outline-dark">Ver Projeto</a>
-    </div>
--->
 
-<!--
-    <div class="mb-4">
-      <h4>Projeto FPS</h4>
-      <p>Protótipo de jogo de tiro em primeira pessoa, com foco em movimentação e física de projéteis.</p>
-      <a href="https://github.com/seu-usuario/fps-projeto" class="btn btn-outline-dark">Ver Projeto</a>
+    <!-- ZigZag Mini Game -->
+    <div class="mb-5">
+      <h4>ZigZag Mini Game</h4>
+      <p><strong>Tipo:</strong> Arcade | <strong>Dispositivo:</strong> Mobile | <strong>Dimensão:</strong> 3D</p>
+      <img src="https://via.placeholder.com/600x300" alt="ZigZag Mini Game Preview" class="project-preview">
+      <p>Controle uma esfera que se movimenta por uma plataforma em zigue-zague. O objetivo é alcançar a maior pontuação possível sem cair da plataforma.</p>
+      <a href="https://github.com/seu-usuario/zigzag-mini-game" class="btn btn-outline-success">Ver Projeto</a>
     </div>
--->
+
+    <!-- Minecraft Clone -->
+    <div class="mb-5">
+      <h4>Minecraft Clone</h4>
+      <p><strong>Tipo:</strong> Sandbox | <strong>Dispositivo:</strong> PC | <strong>Dimensão:</strong> 3D</p>
+      <img src="https://via.placeholder.com/600x300" alt="Minecraft Clone Preview" class="project-preview">
+      <p>Uma recriação simples do famoso Minecraft, permitindo que o jogador construa e destrua blocos em um ambiente gerado proceduralmente.</p>
+      <a href="https://github.com/seu-usuario/minecraft-clone" class="btn btn-outline-success">Ver Projeto</a>
+    </div>
+
+    <!-- Projeto MK -->
+    <div class="mb-5">
+      <h4>Projeto MK</h4>
+      <p><strong>Tipo:</strong> Luta | <strong>Dispositivo:</strong> PC | <strong>Dimensão:</strong> 2D</p>
+      <img src="https://via.placeholder.com/600x300" alt="Projeto MK Preview" class="project-preview">
+      <p>Um jogo de luta inspirado na série Mortal Kombat, com personagens jogáveis e mecânicas de ataques especiais e hitboxes precisas.</p>
+      <a href="https://github.com/seu-usuario/projeto-mk" class="btn btn-outline-success">Ver Projeto</a>
+    </div>
+
+    <!-- FPS Projeto -->
+    <div class="mb-5">
+      <h4>Projeto Tiro em Primeira Pessoa (FPS)</h4>
+      <p><strong>Tipo:</strong> FPS | <strong>Dispositivo:</strong> PC e Web | <strong>Dimensão:</strong> 3D</p>
+      <img src="https://via.placeholder.com/600x300" alt="FPS Projeto Preview" class="project-preview">
+      <p>Um protótipo de jogo de tiro em primeira pessoa com foco em mecânicas de tiro, movimentação fluida e IA básica para inimigos.</p>
+      <a href="https://github.com/seu-usuario/fps-projeto" class="btn btn-outline-success">Ver Projeto</a>
+    </div>
   </section>
- -->
+
+  <hr>
+
+  <!-- Cursos e Certificações -->
+  <section id="cursos-certificacoes" class="container">
+    <h2 class="section-title">📚 Cursos e Certificações</h2>
+    <ul>
+      <li><a href="https://www.udemy.com/course/jogos-3d-com-unity-2017-modo-multiplayer/?couponCode=KEEPLEARNING">Jogos 3D com Unity + modo multiplayer</a> - Udemy</li>
+      <li>Certificação em Programação C# - Microsoft Learn</li>
+      <li>Design de Jogos: Teoria e Prática - Coursera</li>
+      <li>Blender para Iniciantes - Alura</li>
+    </ul>
+  </section>
+  <hr>
+
+  <!-- Experiência Profissional -->
+  <section id="experiencia" class="container">
+    <h2 class="section-title">🏢 Experiência Profissional</h2>
+    <h4>Estágio: Assistente de Desenvolvimento de Jogos | Empresa X</h4>
+    <!-- <h4>Nível: Cargo/Função | Empresa X</h4> -->
+    <p><em>Mês/Ano de Início - Mês/Ano de Término</em></p>
+    <ul>
+      <li>Implementação de mecânicas de gameplay em Unity.</li>
+      <li>Participação em sprints de desenvolvimento utilizando Scrum.</li>
+      <li>Otimização de scripts e performance.</li>
+    </ul>
+  </section>
+  <hr>
+
+  <!-- Educação -->
+  <section id="educacao" class="container">
+    <h2 class="section-title">🎓 Educação</h2>
+    <ul>
+      <li><strong>Curso Superior:</strong> Bacharelado em Ciência da Computação / Jogos Digitais</li>
+      <li><strong>Instituição:</strong> Nome da Universidade / Faculdade</li>
+      <li><strong>Conclusão:</strong> Ano de Conclusão</li>
+    </ul>
+  </section>
+  <hr>
+
   <!-- Contato -->
-  <section id="contato" class="container my-5">
-    <h2>📞 Contato</h2>
-    <p><strong>E-mail:</strong> <a href="mailto:sergioboledev@gmail.com">sergioboledev@gmail.com</a></p>
+  <section id="contato" class="container">
+    <h2 class="section-title">📞 Contato</h2>
+    <p>
+        <strong>E-mail:</strong> 
+        <a href="mailto:sergioboledev@gmail.com?subject=Interesse%20em%20Portfólio%20e%20Projetos&body=Olá,%20Sérgio!%0D%0A%0D%0A
+      Gostei%20do%20seu%20portfólio%20e%20dos%20projetos%20realizados%20em%20Unity.%20Tenho%20interesse%20em%20conversar%20mais%20sobre%20sua%20experiência%20e%20colaborações%20futuras.%0D%0A%0D%0A
+      Por%20favor,%20me%20retorne%20quando%20possível.%0D%0A%0D%0A
+      Atenciosamente,%0D%0A[Seu%20Nome]%0D%0A[Seu%20Telefone]%0D%0A">
+          sergioboledev@gmail.com
+        </a>
+      </p>
+      
     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sergiobole/">linkedin.com/in/sergiobole</a></p>
     <p><strong>GitHub:</strong> <a href="https://github.com/Sergiobole">github.com/Sergiobole</a></p>
-    <p><strong>Portfólio Online:</strong> <a href="https://sergiobole.github.io/Sergio-Bole/">sergiobole.github.io/Sergio-Bole</a></p>
   </section>
+  <hr>
 
   <!-- Footer -->
   <footer>
