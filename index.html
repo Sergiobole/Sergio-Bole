@@ -1,53 +1,114 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> Sergio Barros  - inicio </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        
-        <div class="menu">
-            <ul>
-                <li><a href="https://sergiobole.github.io/Sergio-Bole/"> Home </a></li>
-                <li><a href="http://"> Repositórios </a></li>
-                <li><a href="http://"> Experiência </a></li>
-                <li><a href="http://"> Sobre Mim </a></li>
-                <li><a href="http://"> Contato </a></li>
-                <div class="dropdown" style="float:right;">
-                    <button class="dropbtn">Rede Sociais</button>
-                    <div class="dropdown-content">
-                    <a href="#">Discord</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">Link 3</a>
-                    </div>
-                  </div>
-            </ul>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Sergio Bole</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      margin-bottom: 2rem;
+    }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      padding: 1rem;
+      background-color: #343a40;
+      color: white;
+    }
+  </style>
+</head>
+<body>
 
-                <div class="sobre"> 
-                    <div class="fotoEu">
-                        <a target="_top" href="https://www.instagram.com/sergiobole/">
-                            <img src="assets/img/perfil/eu.jpg" alt="Sergio Bole">
-                        </a>
-                    </div>
-                    👋 Olá, me chamo Sergio Bole, tenho 24 anos e moro em Guarujá-SP ! <p></p>
-                    👀Estou entrando em Front-End  utilizando HTML5 e CSS3 !<p></p>
-                    🌱Atualmente estudando PHP e MySQL para atuar na area de Back-End ! <p></p>
-                    💞️Futuramente irei criar uma StartUp para Front-End e Back-End !<p>
-                        <p style="background-color:whitesmoke; width: 50%; border-style: outset;padding-left: 15%;margin-top: 5%; color: black;">
-                            Quer aprender a programar uma nova técnologia?<br>  <a style="padding-left: 25%; border-bottom: black;" target="_blank" href="https://discord.gg/YvcZeuSCRG"> Clique Aqui</a> </p>
-                    </p>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sergio Bole</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre-mim">Sobre Mim</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades-tecnicas">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos-realizados">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-                </div>
-                <br>
-        <br>
+  <!-- Header -->
+  <header class="text-center py-5 bg-light">
+    <h1>Sergio Bole - Desenvolvedor de Games</h1>
+    <p class="lead">Transformando ideias em experiências interativas</p>
+  </header>
 
-    </body>
+  <!-- Sobre Mim -->
+  <section id="sobre-mim" class="container my-5">
+    <h2>📌 Sobre Mim</h2>
+    <p>Sou um <strong>estudante e desenvolvedor</strong> apaixonado por aprender continuamente e aplicar novos conhecimentos em projetos práticos. Tenho experiência com <strong>Unity</strong> e <strong>C#</strong>, trabalhando com jogos em <strong>2D, 3D</strong> e <strong>Realidade Aumentada (AR)</strong>.</p>
+  </section>
+
+  <!-- Habilidades Técnicas -->
+  <section id="habilidades-tecnicas" class="container my-5">
+    <h2>💻 Habilidades Técnicas</h2>
+    <ul>
+      <li><strong>Motor de Jogos:</strong> Unity 3D/2D, AR</li>
+      <li><strong>Linguagens:</strong> C#, PHP, MySQL, HTML, CSS</li>
+      <li><strong>Multiplayer:</strong> Unity Networking (UNet)</li>
+      <li><strong>Design:</strong> Blender (em aprendizado), Photoshop</li>
+      <li><strong>Controle de Versão:</strong> Git, GitHub</li>
+      <li><strong>Metodologias:</strong> Scrum, Agile</li>
+    </ul>
+  </section>
+
+  <!-- Projetos Realizados -->
+  <section id="projetos-realizados" class="container my-5">
+    <h2>🎮 Projetos Realizados</h2>
+
+    <div class="mb-4">
+      <h4>ZigZag Mini Game</h4>
+      <p>Um jogo arcade simples onde o jogador controla uma esfera em uma plataforma em zigue-zague.</p>
+      <a href="https://github.com/seu-usuario/zigzag-mini-game" class="btn btn-outline-dark">Ver Projeto</a>
+    </div>
+
+    <div class="mb-4">
+      <h4>Minecraft Clone</h4>
+      <p>Projeto inspirado no Minecraft, com mecânicas básicas de construção e destruição de blocos.</p>
+      <a href="https://github.com/seu-usuario/minecraft-clone" class="btn btn-outline-dark">Ver Projeto</a>
+    </div>
+
+    <div class="mb-4">
+      <h4>Projeto MK</h4>
+      <p>Jogo de luta inspirado na série Mortal Kombat, com personagens e ataques especiais.</p>
+      <a href="https://github.com/seu-usuario/projeto-mk" class="btn btn-outline-dark">Ver Projeto</a>
+    </div>
+
+    <div class="mb-4">
+      <h4>Projeto FPS</h4>
+      <p>Protótipo de jogo de tiro em primeira pessoa, com foco em movimentação e física de projéteis.</p>
+      <a href="https://github.com/seu-usuario/fps-projeto" class="btn btn-outline-dark">Ver Projeto</a>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="container my-5">
+    <h2>📞 Contato</h2>
+    <p><strong>E-mail:</strong> <a href="mailto:sergioboledev@gmail.com">sergioboledev@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sergiobole/">linkedin.com/in/sergiobole</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Sergiobole">github.com/Sergiobole</a></p>
+    <p><strong>Portfólio Online:</strong> <a href="https://sergiobole.github.io/Sergio-Bole/">sergiobole.github.io/Sergio-Bole</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Sergio Bole - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
