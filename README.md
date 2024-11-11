@@ -25,15 +25,14 @@ Sou um **estudante e desenvolvedor**, focado em aprender continuamente e aplicar
 Atualmente, tenho uma **boa experiência com Unity** e **C#**, o que me permite desenvolver **pequenos e simples projetos** para jogos em **2D, 3D** e até com **Realidade Aumentada (AR)**. Minha jornada é impulsionada pela curiosidade e pelo desejo de explorar novas possibilidades, transformando ideias em experiências interativas funcionais.  
 
 ### **Cursos Estudados:**
-- **[Jogos 3D com Unity + modo multiplayer](https://www.udemy.com/course/jogos-3d-com-unity-2017-modo-multiplayer/?couponCode=KEEPLEARNING)**  
-- **[Curso 2](#)**  
-- **[Curso 2](#)**  
-- **[Curso 2](#)**  
-- **[Curso 2](#)**  
-- **[Curso 2](#)**  
-- **[Curso 2](#)**  
-- **[Curso 2](#)**  
-- **[Curso 2](#)**  
+- **[C# primeiros passos: Lógica de Programação e Algoritmos](https://www.udemy.com/course/logica-de-programacao-csharp/?couponCode=KEEPLEARNING)**  
+- **[Lógica da programação com Unity](https://www.udemy.com/course/logica-da-programacao-em-unity/)**  
+- **[Crie um Jogo de Ping Pong 2D na Unity e C#!](https://www.udemy.com/course/crie-um-jogo-de-ping-pong-na-unity-e-c/)**  
+- **[Desenvolvimento Unity - Jogos 2D, 3D, AR e Metaverso Web](https://www.udemy.com/course/curso-completo-unity-3d/)**  
+- **[Jogos 2D com Unity + C# CURSO COMPLETO](https://www.udemy.com/course/desenvolvimento-de-jogos-2d-para-android-com-unity-5/)**  
+- **[Jogos 3D com Unity + C# + modo multiplayer](https://www.udemy.com/course/jogos-3d-com-unity-2017-modo-multiplayer/?couponCode=KEEPLEARNING)**
+- **[EBAC : Unity do Zero ao Pro](https://ebaconline.com.br/unity)**
+
 
 ---
 
